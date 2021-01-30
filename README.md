@@ -2,7 +2,7 @@
 
 ## Description
 
-Just a quick covid-19 servey. Practicing on the UI(all client side no backend) just HTML and CSS.
+Just a quick covid-19 survey. Practicing on the UI(all client side no backend) just HTML and CSS.
 
 ---
 
