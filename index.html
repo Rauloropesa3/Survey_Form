@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey-form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header" class="item-g">
+        <h1 id="title">Governments Response</h1>
+        <p id="description">Are you content with the way your country has handled the pandemic?</p>
+    </header>
+    <main id="main">
+    <form id="survey-form" class="item-a">
+       
+        <ul id="text-input" class="item-b">
+            <label id="name-label" for="name">Name</label>
+            <li>
+                <input type="text" name="name" id="name" placeholder="enter your name" required="true">
+            </li>
+            <label id="email-label" for="email">Email</label>
+            <li>
+                <input type="email" name="email" id="email" placeholder="enter your email" required="true">
+            </li>
+            <label id="number-label" for="number">Age(optional)</label>
+            <li>  
+                <input type="number" name="number" id="number" min="12" max="100" placeholder="enter age" required>
+            </li>
+            </ul>
+        
+        <ul id="dropDown-ul" class="item-c">
+            <li>
+            <label for="dropdown">Select your current job status:</label>
+                <select id="dropdown" name="dropdown">
+                   <option value="">--Please select an option--</option>
+                   <option value="unemployed">Unemployed</option>
+                   <option value="employed">Employed</option>
+                   <option value="retired">Retired</option>
+                </select>
+            </li>    
+        </ul>
+        
+        <ul id="radio-ul" class="item-d">
+            <li> 
+            <label id="radio" for="radio">Has your life changed since the pandemic?</label>
+            </li>
+            <li>
+                <input type="radio" name="name" id="radio-1" value="alot">
+            <label id="radio-1" for=radio-1>Alot</label>
+            </li>
+            <li>
+                <input type="radio" name="name" id="radio-2" value="a little">
+            <label id="radio-2" for=radio-1>A little</label>
+            </li> 
+            <li>
+                <input type="radio" name="name" id="radio-3" value="not at all">
+            <label id="radio-3" for=radio-3>Not at all</label>
+            </li>
+        </ul>
+
+        <ul id="checkbox-ul" class="item-e">
+            
+            <label id="checkbox" for="checkbox">Check all that apply</label>
+            <li>
+                <input type="checkbox" name="name" id="vaccine" value="vaccinated">
+            <label for="vaccine">Vaccinated</label>
+            </li>
+            <li>
+                <input type="checkbox" name="name" id="currently" value="currrently infected">
+            <label for="currently">Currently infected</label>
+            </li>
+            <li>
+                <input type="checkbox" name="name" id="never" value="haven't been infected">
+            <label for="never">Haven't been infected</label>
+            </li>
+            <li>            
+                <input type="checkbox" name="name" id="quarantined" value="quaratined">
+            <label for="quarantined">Quarantined</label>
+        </li>
+        </ul>
+        
+        <ul id="textarea" class="item-f">
+            <li>
+             <label for="text-area">Can quality of life improve during this pandemic?</label>
+            </li>
+            <li>
+             <textarea name="name" id="text-area" cols="30" rows="10" placeholder="Let us know what you think"></textarea>
+            </li>
+        </ul>
+            
+        <input id="submit" type="submit" value="submit">
+    </form>
+</main>
+        
+</body>
+</html>
